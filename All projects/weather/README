@@ -1,0 +1,51 @@
+🌤️ Weather App
+
+
+Image
+A simple weather app using HTML, CSS, and JavaScript that shows real-time weather information using the OpenWeatherMap API.
+
+Features
+Search weather by city name
+
+Shows:
+
+Temperature
+City name
+Humidity
+Wind speed
+Weather icon based on condition
+
+Error message for invalid city
+
+Technologies Used
+HTML
+CSS
+JavaScript
+OpenWeatherMap API
+
+How to Use
+Open the app in a browser.
+Enter any city name in the input box.
+Click the search button to get the weather.
+If the city is valid, weather info will appear; otherwise, an error message will show.
+
+API Key
+This project uses OpenWeatherMap API.
+
+Replace the API key in the script :
+javascript
+
+const apikey = "your_api_key";
+Folder Structure
+/project-folder
+├── index.html
+├── style.css
+└── /images
+├── search.png
+├── rain.png
+├── clouds.png
+├── clear.png
+├── mist.png
+├── drizzle.png
+├── humidity.png
+└── wind.png
